@@ -1,0 +1,146 @@
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+.container {
+  display: flex;
+}
+
+.left-side {
+  text-align: center;
+  background-image: url("./images/twitter.png");
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 644px;
+}
+
+.right-side {
+  width: 50%;
+  height: 644px;
+}
+
+.left-side-item {
+  display: block;
+  font-size: 20px;
+}
+
+.login-form {
+  padding: 15px 100px 0px 100px;
+  height: 120px;
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+}
+
+.email {
+  height: 60px;
+  width: 30%;
+  border-bottom: 2px solid #444444;
+  background-color: #e6e1e1;
+}
+
+.email-input {
+  width: 98%;
+  height: 35px;
+  background-color: #e6e1e1;
+  border: none;
+  font-size: 24px;
+}
+
+.email-input:focus {
+  outline: none;
+}
+
+.email-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  height: 20px;
+  width: 100%;
+}
+
+.pass {
+  margin-left: 25px;
+  height: 60px;
+  width: 30%;
+  border-bottom: 2px solid #444444;
+  background-color: #e6e1e1;
+}
+.button {
+  color: blue;
+  margin-left: 25px;
+  margin-top: 10px;
+  height: 40px;
+  width: 20%;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.text {
+  margin-top: 15px;
+}
+.main-block {
+  margin: 40px 150px 0px 150px;
+  height: 400px;
+  width: 50%;
+}
+
+h1 {
+  margin: 0px;
+}
+.text1 {
+  margin-top: 50px;
+}
+
+.main-block-button {
+  width: 100%;
+  height: 40px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.blue {
+  background-color: rgb(129, 129, 236);
+  color: white;
+}
+
+.white {
+  background-color: white;
+  color: rgb(129, 129, 236);
+  border: 1px solid rgb(129, 129, 236);
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    justify-self: center;
+    align-items: center;
+    height: 50px;
+    max-height: 50px;
+    padding-top: 20px;
+}
+
+.footer-item {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    color: gray;
+}
+
+
+.footer-item a{
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-item:hover {
+    text-decoration: underline;
+
+}
